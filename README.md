@@ -1,3 +1,4 @@
+# Carbon Tracker
 CarbonTracker es una aplicacion pensada para ayudar a agroproductores a acceder a creditos de carbono, brindando seguimiento en las distintas etapas del proceso de certificacion. Entre sus funcionalidades base, tenemos:
 
 🎯 Configuracion de un proyecto para capturar carbono
@@ -54,12 +55,11 @@ Arquitectura
           | - Facilita comunicaciones con LLM (agente virtual)    |
           | - Maneja almacenamiento, autenticacion, usuarios      |
           +-----------------+-------------------------------------+
-                            |
-+--------------------------------------+---------------------------+
-| DB PostGIS (Geodata)                 |Servidor de modelos de ML  |
-|  Limites de suelos, muestras         |  Inferencia con ML        |
-|  Estatus de certificacion, metadata  |  (PyTorch, XGBoost)       |
-|                                      |  LLM                      |
-+-------------------------------------+----------------------------+
-      
-/
+                                    |
+        +--------------------------------------+---------------------------+
+        | DB PostGIS (Geodata)                 |Servidor de modelos de ML  |
+        |  Limites de suelos, muestras         |  Inferencia con ML        |
+        |  Estatus de certificacion, metadata  |  (PyTorch, XGBoost)       |
+        |                                      |  LLM                      |
+        +-------------------------------------+----------------------------+
+              
