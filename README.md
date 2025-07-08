@@ -55,10 +55,9 @@ Arquitectura
           | - Maneja almacenamiento, autenticacion, usuarios      |
           +-----------------+-------------------------------------+
                             |
-     +----------------------+------------------+
-     |                                         |
-DB PostGIS (Geodata)                     Servidor de modelos de ML
-|  Limites de suelos, muestras         |  Inferencia con ML 
-|  Estatus de certificacion, metadata  |  (PyTorch, XGBoost)
-|                                      |  LLMs
-+-------------------------------------+---------------------------+
++--------------------------------------+---------------------------+
+| DB PostGIS (Geodata)                 |Servidor de modelos de ML  |
+|  Limites de suelos, muestras         |  Inferencia con ML        |
+|  Estatus de certificacion, metadata  |  (PyTorch, XGBoost)       |
+|                                      |  LLM                      |
++-------------------------------------+----------------------------+
