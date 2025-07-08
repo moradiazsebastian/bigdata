@@ -61,3 +61,5 @@ Arquitectura
 |  Estatus de certificacion, metadata  |  (PyTorch, XGBoost)       |
 |                                      |  LLM                      |
 +-------------------------------------+----------------------------+
+      
+/
