@@ -15,6 +15,8 @@ Visualizar estimaciones como capas en el mapa (NDVI, niveles de carbono en suelo
 
 Generar y exportar reportes (PDF/CSV/GeoTIFF) para aplicar a certificaciones.
 
+Carga dinamica de muestras de carbono en suelo.
+
 ## 🗃️ Manejo de datos
 Dashboard de campos con:
 
